@@ -1,0 +1,35 @@
+<PISI>
+    <Source>
+        <Name>nload</Name>
+        <Packager>
+            <Name>Stig Svensson</Name>
+            <Email>stigarn@protonmail.ch</Email>
+        </Packager>
+        <License>GPL-2.0</License>
+        <PartOf>network.util</PartOf>
+        <Summary xml:lang="en">Monitors network traffic and bandwidth usage.</Summary>
+        <Description xml:lang="en">Nload is a console application which monitors network traffic and bandwidth usage in real time. It visualizes the in- and outgoing traffic using two graphs and provides additional info like total amount of transfered data and min/max network usage. 
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>nload</Name>
+        <Summary xml:lang="en">Monitors network traffic and bandwidth usage.</Summary>
+        <Description xml:lang="en">Nload is a console application which monitors network traffic and bandwidth usage in real time. It visualizes the in- and outgoing traffic using two graphs and provides additional info like total amount of transfered data and min/max network usage. 
+</Description>
+        <PartOf>network.util</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="man">/usr/share/man</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-12-02</Date>
+            <Version>0.7.4</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Stig Svensson</Name>
+            <Email>stigarn@protonmail.ch</Email>
+        </Update>
+    </History>
+</PISI>

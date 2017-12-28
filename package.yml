@@ -1,0 +1,16 @@
+name       : nload
+version    : 0.7.4
+release    : 1
+source     :
+    - http://www.roland-riegel.de/nload/nload-0.7.4.tar.gz : c1c051e7155e26243d569be5d99c744d8620e65fa8a7e05efcf84d01d9d469e5
+license    : GPL-2.0
+component  : network.util
+summary    : Monitors network traffic and bandwidth usage.
+description: |
+    Nload is a console application which monitors network traffic and bandwidth usage in real time. It visualizes the in- and outgoing traffic using two graphs and provides additional info like total amount of transfered data and min/max network usage. 
+setup      : |
+    %configure
+build      : |
+    %make
+install    : |
+    %make_install
